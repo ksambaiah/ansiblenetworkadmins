@@ -19,12 +19,16 @@ Generating configuration file for userA
 '''
 ansible-config init --disabled > .ansible.cfg
 '''
+
 Modify the line containing inventory in .ansible.cfg
+
 '''
 ;inventory=/etc/ansible/hosts replace with
 inventory=/home/userA/ansible/hosts
 '''
+
 Create a directory as below
+
 '''
 mkdir /home/userA/ansible
 '''
