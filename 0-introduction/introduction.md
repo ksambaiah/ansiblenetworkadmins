@@ -1,4 +1,4 @@
-![ansible_inv_start](https://github.com/ksambaiah/ansiblenetworkadmins/assets/3303586/b6e9cbc5-0c38-4614-87b0-cef6019665b2)# Ansible for Network engineers
+# Ansible for Network engineers
 
 
 Ansible is simple IT automation software that helps provision systems or network devices. 
