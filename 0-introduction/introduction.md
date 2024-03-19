@@ -112,3 +112,11 @@ That is all involved in writing ansible playbook. There are some questions here 
 3. I have specific requirement for type of host, if host OS is RedHat one location, debian I wanted to copy to different location.
 4. I would like to copy file, but one line contains hostname. Should I create one file for each host?
 5. I have different users for each host, how do I update inventory file?
+
+## Ansible modules
+We saw ansible module copy, there are many multiple modules are there to work with.
+Listing of all modules can be done
+
+```
+ansible-doc --list
+```
