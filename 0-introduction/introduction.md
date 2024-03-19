@@ -9,29 +9,29 @@ Ansible helps automate repetitive tasks and provisioning systems. A running syst
 
 Ansible is a Python module; use pip to install ansible. 
 
-'''
+```
 pip3.9 install ansible --user
-'''
+```
 
 Installs ansible in user home directory /home/userA/.local/bin/ansible
 Generating configuration file for userA
 
-'''
+```
 ansible-config init --disabled > .ansible.cfg
-'''
+```
 
 Modify the line containing inventory in .ansible.cfg
 
-'''
+```
 ;inventory=/etc/ansible/hosts replace with
 inventory=/home/userA/ansible/hosts
-'''
+```
 
 Create a directory as below
 
-'''
+```
 mkdir /home/userA/ansible
-'''
+```
 
 Note: replace userA with your username.
 
