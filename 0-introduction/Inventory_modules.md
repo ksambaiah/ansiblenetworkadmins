@@ -53,3 +53,23 @@ ansible_user=userA
 ```
 We improved the inventory file.
 
+Notice that we mentioned ssh user is userA repeated How do we improve inventory file? We don't need to repeat ssh_user.
+
+```
+[cloudbolt:vars]
+ansible_connection=ssh
+ansible_user=userA
+
+[cloudbolt]
+162.22.202.192
+162.22.202.229
+162.22.202.230
+162.22.202.235
+162.22.202.236
+162.21.202.248
+162.21.202.254
+162.21.203.1
+162.21.203.2
+162.21.203.12
+```
+We improved inventory file, no repetation of data in the new format.
